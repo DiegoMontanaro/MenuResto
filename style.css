@@ -1,0 +1,79 @@
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    
+    
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #efb810;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+        /* Modifica el tamaño de fuente para mejor legibilidad en pantallas pequeñas */
+        body {
+          font-size: 14px;
+        }
+        /* Ajusta el tamaño de los encabezados para pantallas pequeñas */
+        h1 {
+          font-size: 24px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+        /* Modifica el ancho del menú para que se ajuste a la pantalla */
+        #menu {
+          width: 100%;
+        }
+    }
+
+    .comentario {
+        font-size: 10px;
+        color: gray;
+      }
