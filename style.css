@@ -23,7 +23,7 @@
 
     nav {
       background-color: #efb810;
-      padding: 10px;
+      padding: 12px;
     }
 
     nav ul {
@@ -74,6 +74,6 @@
     }
 
     .comentario {
-        font-size: 10px;
+        font-size: 12px;
         color: gray;
       }
