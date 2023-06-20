@@ -4,64 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Stella Maris Restaurante</title>
 </head>
 <body>
     <header>
-        <h1>Restaurant Stella Maris</h1>
-        <h3>Horario</h3>
-        <h4>Lunes a Domingo de 12:00hs a 16:00hs</h4>
-        <h4>Lunes a Domingo de 18:00hs a 23:00hs</h4>
-      </header>
-      <nav>
+        <h1>
+          <img src="png/cocinando.png" alt="gorro" width="70px">
+          Stella Maris Restaurant
+        </h1>
+    </header>
+
+    <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#menu">Menú</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
-      </nav>
-      <section id="inicio">
+    </nav>
+
+    <section id="inicio">
         <h2>¡Bienvenido al Restaurante!</h2>
         <p>Donde el buen comer es cosa de todos los días.</p>
-      </section>
-      <section id="menu">
+    </section>
+
+    <section id="menu">
         <h2>Menú del Restaurante</h2>
-        <nav>
+        <nav id="menucomidas">
             <ul>
-              <li><a href="#platos-frios">Platos Fríos</a></li>
-              <li><a href="#ensaladas">Ensaladas</a></li>
-              <li><a href="#minutas">Minutas</a></li>
-              <li><a href="#otras-comidas">Otras Comidas</a></li>
-              <li><a href="#empanadas">Empanadas</a></li>
-              <li><a href="#pizzas">Pizzas</a></li>
-              <li><a href="#faina">Fainá</a></li>
-              <li><a href="#sandwiches">Sandwichería</a></li>
-              <li><a href="#pescados">Pescados</a></li>
-              <li><a href="#pastas">Pastas</a></li>
-              <li><a href="#bebidas">Bebidas sin Alcohol</a></li>
-              <li><a href="#cafeteria">Cafetería</a></li>
-              <li><a href="#carnes">Carnes</a></li>
-              <li><a href="#guarniciones">Guarniciones</a></li>
-              <li><a href="#otras-guarniciones">Otras Guarniciones</a></li>
-              <li><a href="#cervezas">Cervezas</a></li>
+              <a href="#ensaladas">
+              <img src="/png/ensalada.png" alt="ensaladita" width="64px">
+                <li class="menu-item ensaladas">Ensaladas</li></a>
+                  
+                <a href="#minutas">
+                  <img src="/png/milanesa.png" alt="milanesa" width="64px">
+                  <li class="menu-item minutas">Minutas</li></a>
+                  
+                  <a href="#otras-comidas">
+                  <img src="/png/tortilla-espanola.png" alt="Tortilla">
+                  <li class="menu-item otras-comidas">Otras Comidas</li></a>
+
+                  <a href="#empanadas">
+                  <img src="/png/empanada.png" alt="empanada">
+                  <li class="menu-item empanadas">Empanadas</li></a>
+
+                  <a href="#pizzas">
+                  <img src="/png/005-pizza.png" alt="Pizza">
+                  <li class="menu-item pizzas">Pizzas</li></a>
+
+                  <a href="#faina">
+                  <img src="/png/faina.png" alt="faina" width="64px">
+                  <li class="menu-item faina">Fainá</li></a>
+
+                  <a href="#sandwichería">
+                  <img src="/png/sandwich.png" alt="sandwich">
+                  <li class="menu-item sandwiches">Sandwichería</li></a>
+
+                  <a href="#pescado">
+                  <img src="/png/007-pescado-frito.png" alt="pescado">
+                  <li class="menu-item pescados">Pescados</li></a>
+
+                
+                  <a href="#pastas">
+                  <img src="/png/006-pasta.png" alt="pasta">
+                  <li class="menu-item pastas">Pastas</li></a>
+
+                
+                  <a href="#bebidas">
+                  <img src="/png/008-botella.png" alt="botella">
+                  <li class="menu-item bebidas">Bebidas sin Alcohol</li></a>
+                  
+                  <a href="#cafetería">
+                  <img src="/png/taza-de-cafe.png" alt="cafe">
+                  <li class="menu-item cafeteria">Cafetería</li></a>
+
+                  <a href="#carnes">
+                  <img src="png/004-churrasco.png" alt="churrasco">
+                  <li class="menu-item carnes">Carnes</li></a>
+
+                  <a href="#guarniciones">
+                  <img src="png/papas-fritas.png" alt="papasfritas">
+                  <li class="menu-item guarniciones">Guarniciones</li></a>
+
+                  <a href="#otras-guarniciones">
+                  <img src="png/bol-de-arroz.png" alt="Arroz">
+                  <li class="menu-item otras-guarniciones">Otras Guarniciones</li></a>
+
+                  <a href="#cerveza">
+                  <img src="png/cerveza.png" alt="cerveza">
+                  <li class="menu-item cervezas">Cervezas</li></a>
+
+                  <a href="#vinos-tintos">
+                    <img src="png/vino.png" alt="vino">
+                    <li class="menu-item vinos-tintos">Vinos Tintos</li></a>
+
+                    <a href="#postres">
+                      <img src="png/magdalena.png" alt="postre">
+                      <li class="menu-item postres">Postres</li></a>
             </ul>
-          </nav>
-          
-          <section id="platos-frios">
-            <h2>Platos Fríos</h2>
-            <ul>
-              <li>Matambre de ternera con ensalada rusa</li>
-              <li>Matambre de pollo con ensalada rusa</li>
-              <li>Lengua a la vinagreta con ensalada rusa</li>
-              <li>Jamón crudo con ensalada rusa</li>
-            </ul>
-          </section>
-        
-          <section id="ensaladas">
+        </nav>
+    </section> 
+
+          <section id="ensalada" class="menu-container">
+            <div class="column">
+              <div class="comida">
             <h2>Ensaladas</h2>
             <p>Elige los ingredientes para personalizar tu ensalada, puedes hasta 3 gustos a eleccion</p>
-            <ul>
+                <ul class="comidas-list">
               <li>Lechuga</li>
               <li>Tomate</li>
               <li>Cebolla</li>
@@ -73,131 +122,149 @@
               <li>Ajo</li>
               <li>Hinojo</li>
               <li>Arroz Blanco</li>
-            </ul>
+                </ul>
             <p>Ensaladas especiales:</p>
-            <ul>
+                <ul class="comidas-list">
               <li>Ensalada completa:    <span class="comentario">Zanahoria,Lechuga,Tomate,Repollo,Huevo Duro,Apio,Hinojo</span></li>
               <li>Ensalada completa:    <span class="comentario">Pollo,Atun,Kanikama</span></li>
               <li>Ensalada Primavera:   <span class="comentario">Palmitos,Jamón,Lechuga,Tomate,Zanahoria,Huevo Duro</span></li>
               <li>Ensalada Griega:      <span class="comentario">Pepino,Tomate,Cebolla morada,Morrón,Aceitunas negras,Parmesano,Jamón cocido,Perejil</span></li>
               <li>Ensalada Stella Maris <span class="comentario">Hojas verdes,Manzana verde,Apio,Zanahoria,Crema</span></li>
               <li>Ensalada de Mar       <span class="comentario">Kanikama,Arroz Blanco,Perejil,Choclo,Zanahoria,Tomate,Lechuga,Huevo Duro</span></li>
-            </ul>
-          </section>
-        
-          <section id="minutas">
+                </ul>
+              </div>
+        </section>
+
+          <section id="minutas" class="column">
+            <div class="comida">
             <h2>Minutas</h2>
-            <ul>
-              <li>Milanesa de Ternera sola</li>
-              <li>Milanesa c/guarnición a elección</li>
-              <li>Milanesa Napolitana sola</li>
-              <li>Milanesa Napolitana c/guarnición</li>
-              <li>Milanesa Fugazzeta sola</li>
-              <li>Milanesa Fugazzeta c/ guarnición</li>
-              <li>Suprema de Pollo sola</li>
-              <li>Supremas c/guarnición a elección</li>
-              <li>Supremas Napolitana o Fugazzeta sola</li>
-              <li>Supremas Napolitana o Fugazzeta c/ guarnición</li>
-              <li>Supremas a la Maryland <span class="comentario">Jamón,Arbejas,Banana Frita,Salsa de choclo, Fritas</span></li>
-            </ul>
+              <ul class="comidas-list">
+                <li>Milanesa de Ternera sola</li>
+                <li>Milanesa c/guarnición a elección</li>
+                <li>Milanesa Napolitana sola</li>
+                <li>Milanesa Napolitana c/guarnición</li>
+                <li>Milanesa Fugazzeta sola</li>
+                <li>Milanesa Fugazzeta c/ guarnición</li>
+                <li>Suprema de Pollo sola</li>
+                <li>Supremas c/guarnición a elección</li>
+                <li>Supremas Napolitana o Fugazzeta sola</li>
+                <li>Supremas Napolitana o Fugazzeta c/ guarnición</li>
+                <li>Supremas a la Maryland <span class="comentario">Jamón,Arbejas,Banana Frita,Salsa de choclo, Fritas</span></li>
+              </ul>
+            </div>
+          </section>
+          
+          <section id="otras-comidas" class="column">
+            <div class="comida">
+            <h2>Otras Comidas</h2>
+              <ul class="comidas-list">
+                <li>Tortilla de Papa              <span class="comentario">Cebolla,Morrón,Ajo</span></li>
+                <li>Tortilla de Papa a la Española <span class="comentario">Con Chorizo colorado</span></li>
+                <li>Omelette de Jamón y Queso</li>
+                <li>Milanesa de Soja con rodajas de Tomate y Muzzarella c/guarnición</li>
+              </ul>
+            </div>
+          </section>
+          
+          <section id="empanadas" class="column">
+            <div class="comida">
+            <h2>Empanadas</h2>
+              <ul class="comidas-list">
+                <li>Carne</li>
+                <li>Pollo</li>
+                <li>Jamon y Queso</li>
+              </ul>
+            </div>
           </section>
 
-          <section id="otras-comidas">
-            <h2>Otras Comidas</h2>
-            <ul>
-              <li>Tortilla de Papa              <span class="comentario">Cebolla,Morrón,Ajo</span></li>
-              <li>Tortilla de Papa a la Española <span class="comentario">Con Chorizo colorado</span></li>
-              <li>Omelette de Jamón y Queso</li>
-              <li>Milanesa de Soja con rodajas de Tomate y Muzzarella c/guarnición</li>
-            </ul>
-          </section>
-        
-          <section id="empanadas">
-            <h2>Empanadas</h2>
-            <ul>
-              <li>Carne</li>
-              <li>Pollo</li>
-              <li>Jamon y Queso</li>
-            </ul>
-          </section>
-        
-          <section id="pizzas">
+          <section id="pizzas" class="column">
+            <div class="comida">
             <h2>Pizzas Caseras al Molde</h2>
-            <ul>
-              <li>Mozzarella</li>
-              <li>Anchoas y Salsa de Tomate</li>
-              <li>Anchoas y Mozzarella</li>
-              <li>Napolitana <span class="comentario">Rodaja de Tomate. Ajo y Mozzarella</span></li>
-              <li>Calabresa <span class="comentario">Mozzarella y Longaniza</span></li>
-              <li>Mozzarella c/ Jamón</li>
-              <li>Mozzarella c/ Jamón y Huevo</li>
-              <li>Mozzarella c/ Jamón y Morrones</li>
-              <li>Mozzarella c/ Jamón y Palmitos</li>
-              <li>Mozzarella y Roquefort</li>
-              <li>Fugazza <span class="comentario">Cebolla,Pimienta blanca</span></li>
-              <li>Fugazzeta <span class="comentario">Mozzarella y Cebolla</span></li>
-              <li>Pizza Caribeña <span class="comentario">Mozzarella,Jamón,Ananá,Caramelo</span></li>
-              <li>Pizza Stella Maris <span class="comentario">Mozzarella,Provolone,Morrones,Roquefort,Palmitos,Huevo</span></li>
-            </ul>
+              <ul class="comidas-list">
+                <li>Mozzarella</li>
+                <li>Anchoas y Salsa de Tomate</li>
+                <li>Anchoas y Mozzarella</li>
+                <li>Napolitana <span class="comentario">Rodaja de Tomate. Ajo y Mozzarella</span></li>
+                <li>Calabresa <span class="comentario">Mozzarella y Longaniza</span></li>
+                <li>Mozzarella c/ Jamón</li>
+                <li>Mozzarella c/ Jamón y Huevo</li>
+                <li>Mozzarella c/ Jamón y Morrones</li>
+                <li>Mozzarella c/ Jamón y Palmitos</li>
+                <li>Mozzarella y Roquefort</li>
+                <li>Fugazza <span class="comentario">Cebolla,Pimienta blanca</span></li>
+                <li>Fugazzeta <span class="comentario">Mozzarella y Cebolla</span></li>
+                <li>Pizza Caribeña <span class="comentario">Mozzarella,Jamón,Ananá,Caramelo</span></li>
+                <li>Pizza Stella Maris <span class="comentario">Mozzarella,Provolone,Morrones,Roquefort,Palmitos,Huevo</span></li>
+              </ul>
+            </div>
           </section>
-        
-          <section id="faina">
-            <h2>Fainá</h2>
-            <p>Porción o entera</p>
-          </section>
-        
-          <section id="sandwiches">
+
+            <section id="faina" class="column">
+              <div class="comida">
+              <h2>Fainá</h2>
+              <ul class="comidas-list">Porción o entera</ul>
+            </div>
+            </section>
+
+          <section id="sandwichería" class="column">
+            <div class="comida">
             <h2>Sandwichería</h2>
-            <ul>
-              <li>Jamón Cocido y Queso</li>
-              <li>Salame y Queso</li>
-              <li>Jamón Crudo y Queso</li>
-              <li>Milanesa de Ternera</li>
-            </ul>
+              <ul class="comidas-list">
+                <li>Jamón Cocido y Queso</li>
+                <li>Salame y Queso</li>
+                <li>Jamón Crudo y Queso</li>
+                <li>Milanesa de Ternera</li>
+              </ul>
             <p>Adicionales:</p>
-            <ul>
+            <ul class="comidas-list">
               <li>Lechuga y Tomate</li>
               <li>Huevo Duro o Frito</li>
               <li>Jamón y Queso</li>
             </ul>
-          </section>
-        
-          <section id="pescados">
-            <h2>Platos con Pescado</h2>
-            <ul>
-              <li>Tallarin Con Frutos de Mar</li>
-              <li>Filet de Merluza al Horno c/ guarnición</li>
-            </ul>
-          </section>
-        
-          <section id="pastas">
-            <h2>Pastas</h2>
-            <ul>
-              <li>Ravioles <span class="comentario">Ricota y Queso o Pollo y Verdura</span></li>
-              <li>Tallarines</li>
-              <li>Fideos Caseros <span class="comentario">Al huevo o de Espinaca</span></li>
-              <li>Ñoquis Caseros de Papa</li>
-              <li>Lasagna Casera <span class="comentario">Verdura, Mozzarella, Ricota, Pollo y Carne</span></li>
-              <li>Canelones Caseros <span class="comentario">Ricota y Verdura</span></li>
-              <li>Sorrentinos <span class="comentario">Provolone, Jamón y Mozzarella</span></li>
-            </ul>
-            <p>*Todas las Pastas acompañadas con tuco o salsa blanca</p>
+          </div>
 
-            <p>Salsas:</p>
-            <ul>
-              <li>Fileto</li>
-              <li>Salsa Blanca</li>
-              <li>Crema</li>
-              <li>4 Quesos</li>
-              <li>Pesto</li>
-              <li>2 Salsas <span class="comentario">Fileto - Blanca</span></li>
-            </ul>
+        <section id="pescado" class="column">
+          <div class="comida">
+            <h2>Platos con Pescado</h2>
+              <ul class="comidas-list">
+                <li>Tallarin Con Frutos de Mar</li>
+                <li>Filet de Merluza al Horno c/ guarnición</li>
+              </ul>
+            </div>
+        </section>
+
+          <section id="pastas" class="column">
+            <div class="comida">
+            <h2>Pastas</h2>
+              <ul class="comidas-list">
+                <li>Ravioles <span class="comentario">Ricota y Queso o Pollo y Verdura</span></li>
+                <li>Tallarines</li>
+                <li>Fideos Caseros <span class="comentario">Al huevo o de Espinaca</span></li>
+                <li>Ñoquis Caseros de Papa</li>
+                <li>Lasagna Casera <span class="comentario">Verdura, Mozzarella, Ricota, Pollo y Carne</span></li>
+                <li>Canelones Caseros <span class="comentario">Ricota y Verdura</span></li>
+                <li>Sorrentinos <span class="comentario">Provolone, Jamón y Mozzarella</span></li>
+              </ul>
+              <p>*Todas las Pastas acompañadas con tuco o salsa blanca</p>
+
+              <p>Salsas:</p>
+              <ul class="comidas-list">
+                <li>Fileto</li>
+                <li>Salsa Blanca</li>
+                <li>Bolognesa</li>
+                <li>Crema</li>
+                <li>4 Quesos</li>
+                <li>Pesto</li>
+                <li>2 Salsas <span class="comentario">Fileto - Blanca</span></li>
+              </ul>
+            </div>
           </section>
-        
-          <section id="bebidas">
+
+          <section id="bebidas" class="column">
+            <div class="comida">        
             <h2>Bebidas sin Alcohol</h2>
             <p>Linea Pepsi</p>
-            <ul>
+            <ul class="comidas-list">
               <li>1500 cc Descartable</li>
               <li>500 cc Descartable</li>
               <li>1500 cc Agua Saborizada</li>
@@ -205,81 +272,139 @@
               <li>500 cc Agua Mineral</li>
               <li>500 cc Soda en Sifón</li>
             </ul>
+          </div>
           </section>
-        
-          <section id="cafeteria">
+
+        <section id="cafetería" class="column">
+          <div class="comida">
             <h2>Cafetería</h2>
-            <ul>
-              <li>Café Expresso</li>
-              <li>Café c/ Leche</li>
-              <li>Café Americano</li>
-              <li>Té o Mate Cocido</li>
-              <li>Té c/ Leche</li>
-              <li>Té Saborizado-Varios</li>
-              <li>Chocolata Fría o Caliente</li>
-              <li>Recarlo de Crema</li>
-            </ul>
-            <p>Otras Bebidas:</p>
-            <ul>
-              <li>Exprimido de Naranja</li>
-              <li>Licuado de Banana c/Leche</li>
-            </ul>
-          </section>
-        
-          <section id="carnes">
+              <ul class="comidas-list">
+                <li>Café Expresso</li>
+                <li>Café c/ Leche</li>
+                <li>Café Americano</li>
+                <li>Té o Mate Cocido</li>
+                <li>Té c/ Leche</li>
+                <li>Té Saborizado-Varios</li>
+                <li>Chocolata Fría o Caliente</li>
+                <li>Recarlo de Crema</li>
+              </ul>
+            </div>
+        </section>
+
+          <section id="carnes" class="column">
+            <div class="comida">
             <h2>Carnes</h2>
-            <h3>Carnes Rojas, Blancas y de Cerdo</h3>
-            <ul>
-              <li>Bife de Chorizo (350 grs.) solo</li>
-              <li>Bife de Chorizo c/ guarnición</li>
-              <li>Vacio al Horno solo</li>
-              <li>Vacio al Horno c/ guarnición</li>
-              <li>1/4 de Pollo al Horno (Pata Muslo) solo</li>
-              <li>1/4 de Pollo al Horno (Pata muslo) c/ guarnición</li>
-              <li>Pechuga Grillé sola</li>
-              <li>Pechuga Grillé el guarnición</li>
-              <li>Pechuga Grillé al Verdeo / guarnición</li>
-              <li>Costillitas de Cerdo c/ guarnición</li>
-              <li>Bondiola a la Mostaza c/ guarnición</li>
-              <li>Matambre Tiernizado a la Pizza c/ guarnición</li>
-              <li>Mollejas al Verdeo c/ Vino Blanco el guarnición</li>
-            </ul>
-        
-          <section id="guarniciones">
-            <h2>Guarniciones</h2>
-            <p>Ensalada Mixta, Frita, Puré de Papas o Calabaza, Papas y Batatas al horno</p>
+              <h3>Carnes Rojas, Blancas y de Cerdo</h3>
+                <ul class="comidas-list">
+                  <li>Bife de Chorizo (350 grs.) solo</li>
+                  <li>Bife de Chorizo c/ guarnición</li>
+                  <li>Vacio al Horno solo</li>
+                  <li>Vacio al Horno c/ guarnición</li>
+                  <li>1/4 de Pollo al Horno (Pata Muslo) solo</li>
+                  <li>1/4 de Pollo al Horno (Pata muslo) c/ guarnición</li>
+                  <li>Pechuga Grillé sola</li>
+                  <li>Pechuga Grillé el guarnición</li>
+                  <li>Pechuga Grillé al Verdeo / guarnición</li>
+                  <li>Costillitas de Cerdo c/ guarnición</li>
+                  <li>Bondiola a la Mostaza c/ guarnición</li>
+                  <li>Matambre Tiernizado a la Pizza c/ guarnición</li>
+                  <li>Mollejas al Verdeo c/ Vino Blanco el guarnición</li>
+                </ul>
+              </div> 
           </section>
-        
-          <section id="otras-guarniciones">
-            <h2>Otras Guarniciones</h2>
-            <ul>
-              <li>Papas Fritas</li>
-              <li>Arroz Blanco</li>
-              <li>Papas Horno</li>
-              <li>Batatas al Horno</li>
-              <li>Puré de Papas de Calabaza</li>
-              <li>Huevos Fritos (2)</li>
-              <li>Adicional Provenzal</li>
+
+          <section id="guarniciones" class="column">
+            <div class="comida">
+              <h2>Guarniciones</h2>
+            <ul class="comidas-list">
+              <li>Ensalada Mixta</li>
+              <li>Frita</li>
+              <li>Puré de Papas o Calabaza</li> 
+              <li>Papas y Batatas al horno</li>
             </ul>
           </section>
-        
-          <section id="cervezas">
+            <section id="otras-guarniciones" class="column">
+            </div>
+            <div class="comida">
+                <h2>Otras Guarniciones</h2>
+                  <ul class="comidas-list">
+                    <li>Papas Fritas</li>
+                    <li>Arroz Blanco</li>
+                    <li>Papas Horno</li>
+                    <li>Batatas al Horno</li>
+                    <li>Puré de Papas de Calabaza</li>
+                    <li>Huevos Fritos (2)</li>
+                    <li>Adicional Provenzal</li>
+                  </ul>
+                </div>
+          </section>
+
+          <section id="cerveza" class="column">
+            <div class="comida">
             <h2>Cervezas</h2>
-            <ul>
-              <li>Cerveza Quilmes Cristal 1000 cc</li>
-              <li>Lieber 1000 cc Cerveza sin Alcohol</li>
-              <li>Brahma 1000 cc</li>
-              <li>Quilmes Stout 1000 cc</li>
-              <li>Quilmes Bock 1000 cc</li>
-              <li>Quilmes 1890 1000 cc</li>
-              <li>Andes 1000 cc</li>
-              <li>Stella Artois 1000 cc</li>
-              <li>Patagonia Amber Lager</li>
-              <li>Corona</li>
-              <li>Quilmes Porrón x 500 cc - Latas x 473 cc</li>
-            </ul>
-          </section>
-        </body>
-        </html>
+              <ul class="comidas-list">
+                <li>Cerveza Quilmes Cristal 1000 cc</li>
+                <li>Lieber 1000 cc Cerveza sin Alcohol</li>
+                <li>Brahma 1000 cc</li>
+                <li>Quilmes Stout 1000 cc</li>
+                <li>Quilmes Bock 1000 cc</li>
+                <li>Quilmes 1890 1000 cc</li>
+                <li>Andes 1000 cc</li>
+                <li>Stella Artois 1000 cc</li>
+                <li>Patagonia Amber Lager</li>
+                <li>Corona</li>
+                <li>Quilmes Porrón x 500 cc - Latas x 473 cc</li>
+              </ul>
+            </div>
+            </section>
+
+            <section id="vinos-tintos" class="column">
+              <div class="comida">
+              <h2>Vinos Tintos</h2>
+                <ul class="comidas-list">
+                  <li>Rincon Famoso</li>
+                  <li>Casona Lopez</li>
+                  <li>Lopez</li>
+                  <li>Traful</li>
+                  <li>Vasco Viejo</li>
+                  <li>Benjamin</li>
+                  <li>Alma Mora</li>
+                  <li>Don Valentin</li>
+                  <li>Noveccento</li>
+                </ul>
+                </div>
+              </section>
+
+              <section id="postres" class="column">
+                <div class="comida">
+                <h2>Postres</h2>
+                  <ul class="comidas-list">
+                    <li>Flan Casero</li>
+                    <li>Mousse de Chocolate</li>
+                    <li>Cheesecake de Frutos Rojos</li>
+                    <li>Lemon Pie</li>
+                    <li>Tiramisu</li>
+                    <li>Almendrado</li>
+                    <li>Casatta</li>
+                    <li>Queso y Dulce de Batata/Membrillo</li>
+                    <li>Agregado de Crema o Dulce de Leche</li>
+                  </ul>
+                </div>
+                </section>
+
+             <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para hacer un pedido o solicitar información, contáctanos:</p>
+        <ul>
+            <li>Teléfono: 4571-4225</li>
+            <li>Dirección: Av. de los Constituyentes 3515</li>
+        </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Restaurante Stella Maris. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+
 </body>
 </html>

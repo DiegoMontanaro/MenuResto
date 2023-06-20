@@ -1,79 +1,156 @@
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    
-    
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat+Alternates:wght@300&display=swap');
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: black;
-      color: white;
-    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
 
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-    h1 {
-      margin: 0;
-    }
 
-    nav {
-      background-color: #efb810;
-      padding: 12px;
-    }
+/* Estilos para el encabezado */
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+header {
+  background-color: #333;
+  padding: 20px;
+}
 
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
+h1 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 125px;
+  color: #fff;
+}
 
-    nav ul li a {
-      color: #333;
-      text-decoration: none;
-      padding: 5px 10px;
-    }
+nav {
+  text-align: center;
+  background-color: #f78c20;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+}
 
-    section {
-      padding: 20px;
-    }
+#inicio{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 
-    h2 {
-      margin-top: 0;
-    }
+#menucomidas {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-    p {
-      margin-bottom: 20px;
-    }
+#menucomidas a:hover {
+  color: #fff; /* Cambia el color del texto del enlace al pasar el cursor sobre él */
+}
 
-    @media (max-width: 600px) {
-        /* Modifica el tamaño de fuente para mejor legibilidad en pantallas pequeñas */
-        body {
-          font-size: 14px;
-        }
-        /* Ajusta el tamaño de los encabezados para pantallas pequeñas */
-        h1 {
-          font-size: 24px;
-        }
-        h2 {
-          font-size: 20px;
-        }
-        /* Modifica el ancho del menú para que se ajuste a la pantalla */
-        #menu {
-          width: 100%;
-        }
-    }
+.comida {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  
+}
 
-    .comentario {
-        font-size: 12px;
-        color: gray;
-      }
+.comidas-list {
+  max-width: 800px; /* Ajusta el valor según tus necesidades */
+  margin: 0 auto; /* Centra la lista horizontalmente */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: start;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para las secciones */
+
+section {
+  margin-bottom: 10px;
+}
+
+section h2 {
+  margin: 0 0 10px;
+  color: #f78c20;
+}
+
+section p {
+  color: #f78c20;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.comentario {
+  font-size: 12px;
+  color: gray;
+}
+/* Estilos para el pie de página */
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    font-size: 16px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+}
