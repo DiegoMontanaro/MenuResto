@@ -51,7 +51,7 @@ nav {
 
 #inicio{
   text-align: end;
-  font-size: 18px;
+  font-size: 25px;
   font-family: 'Montserrat Alternates', sans-serif;
   text-decoration: underline;
   text-decoration-color: #F0A500;
@@ -59,6 +59,7 @@ nav {
 
 #menunav {
   border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 #botoncomidas ul {
@@ -76,10 +77,8 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;
   color: white;
   padding: 10px;
-  border: 2px solid rgb(104, 104, 104);
   border-radius: 4px;
   box-shadow: 0 2px 5px rgb(104, 104, 104);
   transition: box-shadow 0.3s ease;
@@ -101,8 +100,8 @@ nav {
 }
 
 .comidas-list {
-  max-width: 55rem; /* Ajusta el valor según tus necesidades */
-  margin: 2rem auto; /* Centra la lista horizontalmente */
+  max-width: 55rem;
+  margin: 2rem auto;
   padding: 5px;
   text-align: start;
   font-size: 20px;
@@ -128,6 +127,8 @@ nav ul li {
 nav ul li a {
   color: #F4F4F4;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 /* Estilos para las secciones */
@@ -137,19 +138,34 @@ section {
 }
 
 section h2 {
-  margin: 0 0 10px;
   color: #F0A500;
   padding: 30px;
   font-family: 'Open Sans', sans-serif;
 }
 
+#sobre-nosotros {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #F0A500;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  letter-spacing: 1px;
+}
+
 section p {
   color: #F0A500;
+  padding-top: 1rem;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section ul {
   list-style-type: none;
   padding: 5px;
+  font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
 }
 
 .comentario {
@@ -157,8 +173,15 @@ section ul {
   font-style: italic;
   font-size: 15px;
   padding: 3px;
-
 }
+
+#contacto {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-left: 8rem;
+  margin-top: 6rem;
+  font-size: 20px;
+}
+
 /* Estilos para el pie de página */
 
 footer {
@@ -167,37 +190,59 @@ footer {
   text-align: center;
 }
 
-/* Estilos responsivos */
-
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-
-  header {
-    padding: 10px;
-  }
-
-  nav {
-    font-size: 16px;
-  }
-
-  nav ul li {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  section h2 {
-    font-size: 24px;
-  }
+.dios {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px;
+  color: #F0A500;
+  font-weight: bold;
 }
 
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 24px;
-  }
+#YamilaDe-mi-casa-a-tu-mesa {
+  margin-left: 6rem;
+  margin-top: 6rem;
+  padding: 2rem;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  margin-right: 8rem;
+}
 
-  section h2 {
-    font-size: 20px;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#yamila {
+  color: #F0A500;
+  font-size: 6rem;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#catering-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #F0A500;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  letter-spacing: 1px;
+}
+
+#lunch {
+  padding-bottom: 2rem;
+}
+
+#kilo {
+  padding-bottom: 2rem;
+}
+
+#vegana {
+  padding-bottom: 2rem;
+}
+
+#podrido {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
 }
